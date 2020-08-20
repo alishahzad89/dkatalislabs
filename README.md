@@ -45,11 +45,12 @@ This repository contains Test Automation written in Java + Rest Assured + Maven 
 
 ### Output
 
-Test outputs can be seen on console.
+Test output can be seen on terminal while running from cmd/terminal
+If running from Ide tests output can be seen on ide console.
 
-### HTML Report
+### Existing execution report
 
-Navigate to test-output folder, look for email ‘emailable-report.html’, open it in any browser
+Please open screenshot 'SampleExecutionScreenshot' file available at project folder
 
 
 ## Author
