@@ -20,16 +20,27 @@ This repository contains Test Automation written in Java + Rest Assured + Maven 
 - Response validator class to have the assertion and print the logs
 - RestUtil class to get rest assured response using url.
 
+## Prerequisite
+- Maven is setup in your system
+- Either eclipse or IntelliJ is configured 
+- Java 8 or above is installed 
+
 ## Setting up
 
-* Import as maven project to ide from cloned repository
+* Clone project from github (https://github.com/alishahzad89/dkatalislabs)
+* Import as maven project to Ide(Eclipse/IntelliJs) from cloned repository
 * wait for Maven to download all external dependency
 
-### Running tests
+## Running tests
+
+### Using terminal / CMD
 
        Open project folder path in CMD (windows) / terminal (mac) 
        Run  maven command – 'mvn clean install test'
        All report will be shown on console ouput
+       
+### Using TestRunner.xml
+        Right click on TestRunner.xml and click on run button.
 
 
 ### Output
@@ -41,6 +52,6 @@ Test outputs can be seen on console.
 Navigate to test-output folder, look for email ‘emailable-report.html’, open it in any browser
 
 
-### Author
+## Author
 Shahzad Ali
 QA Automation Expert
