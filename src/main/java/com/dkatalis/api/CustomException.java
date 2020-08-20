@@ -1,4 +1,4 @@
-package com.dkatalis.api;
+package main.java.com.dkatalis.api;
 
 public class CustomException extends Exception {
 

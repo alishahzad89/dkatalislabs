@@ -1,4 +1,4 @@
-package com.dkatalis.api;
+package main.java.com.dkatalis.api;
 
 import java.io.FileReader;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import com.google.gson.JsonParser;
 public class DataReader {
 	public static synchronized Map<String, String> readData(String fileName, String elementName) throws Exception {
 		String filePath = null;
-		filePath = APIHelper.getResourceFolderPath() + fileName;
+		filePath = com.dkatalis.api.APIHelper.getResourceFolderPath() + fileName;
 		JsonElement root = new JsonParser().parse(new FileReader(filePath));
 		JsonObject jsonObject = root.getAsJsonObject();
 		JsonElement some = jsonObject.get(elementName);

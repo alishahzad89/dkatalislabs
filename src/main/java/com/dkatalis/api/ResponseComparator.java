@@ -1,4 +1,4 @@
-package com.dkatalis.api;
+package main.java.com.dkatalis.api;
 
 import java.util.Map.Entry;
 import java.util.Set;

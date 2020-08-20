@@ -1,4 +1,4 @@
-package com.dkatalis.api;
+package main.java.com.dkatalis.api;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;

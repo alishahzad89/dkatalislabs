@@ -1,4 +1,4 @@
-package com.dkatalis.api;
+package main.java.com.dkatalis.api;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -7,7 +7,7 @@ public class FileReading {
 	private String filePath;
 
 	public FileReading(String fileName) {
-		this.filePath = APIHelper.getResourceFolderPath() + fileName;
+		this.filePath = com.dkatalis.api.APIHelper.getResourceFolderPath() + fileName;
 	}
 
 	public String[] readFile() throws Exception {
